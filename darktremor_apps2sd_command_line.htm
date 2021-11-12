@@ -1,0 +1,1302 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="id">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Darktremor Apps2SD Command Line</title>
+<style>
+<!--
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+ li.MsoNormal
+	{mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	}
+-->
+</style>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button/button79.gif', /*url*/'button/button80.gif')" background="background/android_wallpapers_os_by_spikepass-d2zhdny.jpg" style="background-attachment: fixed">
+
+<p class="MsoNormal" style="line-height: normal" align="center">
+<img border="0" src="images/dddd.gif" width="600" height="200"></p>
+<p class="MsoNormal" style="line-height: normal" align="center"><font color="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="guide.htm">
+<img border="0" id="img1" src="button/button81.gif" height="26" width="130" alt="Guide Index" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button/button79.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button/button81.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button/button80.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button/button79.gif')" fp-style="fp-btn: Braided Row 4; fp-font-style: Bold; fp-font-size: 14; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #FFFFFF; fp-font-color-press: #00FF00; fp-transparent: 1" fp-title="Guide Index"></a></font></a></p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal"><b><span lang="en-us">
+<font face="Trebuchet MS" size="5" color="#FFFFFF">&nbsp;&nbsp;&nbsp; </font></span></b></p>
+<div style="position: absolute; width: 1020px; height: 100px; z-index: 1; left: 55px; top: 297px" id="layer1">
+<p class="MsoNormal" style="line-height: normal"><b><span lang="en-us">
+<font face="Trebuchet MS" size="5" color="#FFFFFF">Darktremor Apps2SD Command 
+Line Guide</font></span></b></p>
+<p class="MsoNormal" style="line-height: normal">&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal"><font color="#FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">This is 
+the Darktremor Apps2SD Command Line Help guide.&nbsp; This is the same guide you will 
+see if you type <b>a2sd help</b> in Darktremor Apps2Sd 2.7.5.3:</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">The 
+syntax to run any of this commands is the following:</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">a2sd 
+&lt;command&gt;&lt;/command&gt;</span></b></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">...where 
+&lt;command&gt; is one of the following:<b>&nbsp;</b>&lt;/command&gt;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">Standard 
+Apps2SD Commands:</span></b></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	reinstall</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Moves 
+free and paid apps to the ext2/ext3/ext4</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+partition on your secure digital card.&nbsp; Removes</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; the No 
+A2SD flag file.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; This 
+is used if you have already executed an</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; a2sd 
+remove command.&nbsp; Otherwise, this part is</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+automatically performed when Apps2SD is</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+started.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	install</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Same 
+as reinstall.&nbsp; This was brought back for</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; users 
+of version 2.7.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	remove</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Moves 
+free and paid apps to the internal phone</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+storage.&nbsp; Creates the No A2SD flag file.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">Swap 
+Partition Commands:</span></b></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	reswap</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Removes the No Swap flag.&nbsp; Allows A2SD to</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+activate the swap partition.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; This 
+is used if you have already executed an</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; a2sd 
+noswap command.&nbsp; Otherwise, this part is</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+automatically performed when Apps2SD is</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+started.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	noswap</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Creates the No Swap flag.&nbsp; Prevents A2SD from</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+activating the swap partition.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	swappy<i>xx</i></span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Sets 
+swap partition swappiness value to xx. &nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Example:&nbsp; To set the swappiness of the swap</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; partition to 30%, type:</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a2sd swappy30</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To set at 75%, type:</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a2sd swappy75</span></font></p>
+<p class="MsoNormal" style="line-height: normal; margin-bottom: .0001pt">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">Dalvik 
+Cache Commands:</span></b></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	cachesd</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Moves 
+Dalvik cache files to the ext2/ext3/ext4</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+partition on your secure digital card. Creates</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Dalvik 
+Cache to SD flag.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	cachesdreset</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Performs the same function as cachesd, plus</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; erases 
+the contents of Dalvik-Cache, forcing</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; a 
+rebuild on reboot.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	cachepart</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Moves 
+Dalvik cache files to the /cache partition</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; in 
+your phone.&nbsp; Creates Dalvik Cache to Cache</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Partition flag.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	cachepartreset</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Performs the same function as cachepart, plus</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; erases 
+the contents of Dalvik-Cache, forcing</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; a 
+rebuild on reboot.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	nocache</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Moves 
+Dalvik cache files to the internal phone</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+storage.&nbsp; Removes all Dalvik Cache flags.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	nocachereset</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Performs the same function as nocache, plus</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; erases 
+the contents of Dalvik-Cache, forcing</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; a 
+rebuild on reboot.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	resetcache</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Clears 
+the dalvik cache and restarts phone.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">Program 
+Data Commands:</span></b></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	datasd</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Moves 
+/data/data to the SD card.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	nodata</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Restores /data/data to the internal storage.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">Apps2SD 
+Diagnostic Commands:</span></b></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	check</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Performs a symlink and flag file check on your</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+setup.&nbsp; Outputs a report that shows you if</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; there 
+are issues with your Apps2SD setup.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	repair</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Performs a repair of all symlinks based on</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; flag 
+file activation.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	diskspace</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Shows 
+disk space statistics for the ext</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+partition.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	sysinfo</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Displays information about your phone,</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+partitions, swap, and more.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Also 
+writes a dump file that has an</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; entire 
+profile of your phone.&nbsp; This</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; is for 
+troubleshooting only.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	swapspace</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Shows 
+swap space statistics for all</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; swap 
+space active on the phone.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	partlist</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Shows 
+the supported EXT partitions</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+available for your particular ROM.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	fixapk</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Fixes 
+permissions on programs.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	usedtbusybox</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Uses 
+the Darktremor packaged Busybox. Used</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; to 
+diagnose issues.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	usedefaultbusybox</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Reactivates Busybox scanning.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">ZipAlign 
+Commands:</span></b></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	align</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Performs a one-time zipalign on all APK files</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; in 
+/data/app, /data/app-private and /system/app.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	zipalign</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Allows 
+ZipAlign to execute during the boot</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+process. Creates the ZipAlign flag file.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	nozipalign</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Prevents ZipAlign from executing during the</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; boot 
+process. Removes the ZipAlign flag file.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">Dalvik 
+Setting Commands:</span></b></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	heapsize<i>xx</i></span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Sets 
+Dalvik Heap Size to xx, or heapsize0 resets</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; heap 
+size to default settings.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Ex: If 
+you want to set the Dalvik Heap Size to</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+24mb, type a2sd heapsize24</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">Low 
+Memory Killer Commands:</span></b></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	lowmem-moderate</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Sets 
+the internal memory killer to the following</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+settings:</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Foreground Apps:&nbsp;&nbsp;&nbsp; 1536 pages /&nbsp;&nbsp; 6 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Visible Apps:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3072 pages /&nbsp; 12 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Secondary Server:&nbsp;&nbsp; 4096 pages /&nbsp; 16 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Hidden 
+Apps:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7680 pages /&nbsp; 30 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Content Provider:&nbsp;&nbsp; 8960 pages /&nbsp; 35 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Empty 
+App:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10240 pages /&nbsp; 40 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	lowmem-optimum</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Sets 
+the internal memory killer to the following</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+settings:</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Foreground Apps:&nbsp;&nbsp;&nbsp; 1536 pages /&nbsp;&nbsp; 6 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Visible Apps:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2048 pages /&nbsp;&nbsp; 8 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Secondary Server:&nbsp;&nbsp; 4096 pages /&nbsp; 16 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Hidden 
+Apps:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10240 pages /&nbsp; 40 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Content Provider:&nbsp; 12800 pages /&nbsp; 50 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Empty 
+App:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15360 pages /&nbsp; 60 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	lowmem-strict</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Sets 
+the internal memory killer to the following</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+settings:</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Foreground Apps:&nbsp;&nbsp;&nbsp; 1536 pages /&nbsp;&nbsp; 6 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Visible Apps:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2048 pages /&nbsp;&nbsp; 8 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Secondary Server:&nbsp;&nbsp; 4096 pages /&nbsp; 16 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Hidden 
+Apps:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15360 pages /&nbsp; 60 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Content Provider:&nbsp; 17920 pages /&nbsp; 70 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Empty 
+App:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20480 pages /&nbsp; 80 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	lowmem-aggressive</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Sets 
+the internal memory killer to the following</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+settings:</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Foreground Apps:&nbsp;&nbsp;&nbsp; 1536 pages /&nbsp;&nbsp; 6 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Visible Apps:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3072 pages /&nbsp; 12 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Secondary Server:&nbsp;&nbsp; 4096 pages /&nbsp; 16 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Hidden 
+Apps:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21000 pages /&nbsp; 82 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Content Provider:&nbsp; 23000 pages /&nbsp; 90 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Empty 
+App:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25000 pages /&nbsp; 98 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	lowmem-extreme</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Sets 
+the internal memory killer to the following</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+settings:</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Foreground Apps:&nbsp;&nbsp;&nbsp; 1536 pages /&nbsp;&nbsp; 6 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Visible Apps:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3072 pages /&nbsp; 12 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Secondary Server:&nbsp;&nbsp; 4096 pages /&nbsp; 16 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Hidden 
+Apps:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 38400 pages / 150 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Content Provider:&nbsp; 40960 pages / 160 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Empty 
+App:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 43520 pages / 170 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	lowmem-ultimate</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Sets 
+the internal memory killer to the following</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+settings:</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Foreground Apps:&nbsp;&nbsp;&nbsp; 1536 pages /&nbsp;&nbsp; 6 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Visible Apps:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3072 pages /&nbsp; 12 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Secondary Server:&nbsp;&nbsp; 4096 pages /&nbsp; 16 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Hidden 
+Apps:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 51200 pages / 200 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Content Provider:&nbsp; 57600 pages / 225 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Empty 
+App:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 64000 pages / 250 MB</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	lowmem-default</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Sets 
+the internal memory killer back to phone default</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+settings.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">SD Card 
+Maintenance Commands</span></b></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	forcecheck</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Forces 
+Darktremor Apps2SD to force check the</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; EXT 
+partition on the SD card when phone is</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+rebooted.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	convert-ext3</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Converts an EXT2 partition to an EXT3 partition.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Note: 
+Boot process will take longer due to the</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+conversion.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;</span></font></p>
+<ul type="disc" style="margin-bottom: 0cm">
+	<li class="MsoNormal" style="line-height: normal"><font color="#FFFFFF"><b>
+	<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">
+	convert-ext4</span></b></font></li>
+</ul>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; 
+Converts an EXT3 partition to an EXT4 partition.</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp; Note: 
+You must execute a2sd convert-ext3 first if you</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+are trying to convert from EXT2 to EXT4. &nbsp;</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Boot process will take longer due to the</span></font></p>
+<p class="MsoNormal" style="line-height: normal">
+<font color="#FFFFFF">
+<span lang="EN-US" style="font-size: 12.0pt; font-family: Trebuchet MS">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+conversion.</span></font></p>
+	<p>&nbsp;</div>
+<p class="MsoNormal" style="line-height: normal">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal" style="line-height: normal" align="center">
+&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal" align="center">
+<img border="0" src="images/asr.gif" width="600" height="200"></p>
+
+</body>
+
+</html>
